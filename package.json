@@ -1,0 +1,36 @@
+{
+  "name": "ledge",
+  "version": "0.0.1",
+  "main": "lib/ledge.js",
+  "description": "Easy ledging.",
+  "homepage": "https://github.com/tnguyen14/ledge",
+  "bugs": "https://github.com/tnguyen14/ledge/issues",
+  "author": {
+    "name": "Tri Nguyen",
+    "email": "tri@tridnguyen.com",
+    "url": "tridnguyen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnguyen14/ledge"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "restify": "^2.8.1"
+  }
+}

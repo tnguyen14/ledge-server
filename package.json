@@ -31,7 +31,7 @@
     "test": "grunt"
   },
   "dependencies": {
-    "assert": "^1.1.1",
+    "moment": "^2.6.0",
     "mongodb": "^1.4.5",
     "restify": "^2.8.1"
   }

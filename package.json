@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "main": "lib/ledge.js",
   "description": "Easy ledging.",
-  "homepage": "https://github.com/inspiredev/ledge-server",
-  "bugs": "https://github.com/inspiredev/ledge-server/issues",
+  "homepage": "https://github.com/tnguyen14/ledge-server",
+  "bugs": "https://github.com/tnguyen14/ledge-server/issues",
   "author": {
     "name": "Tri Nguyen",
     "email": "tri@tridnguyen.com",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/inspiredev/ledge-server"
+    "url": "https://github.com/tnguyen14/ledge-server"
   },
   "license": "MIT",
   "files": [

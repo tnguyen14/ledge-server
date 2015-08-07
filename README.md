@@ -1,26 +1,24 @@
 # ledge [![Build Status](https://secure.travis-ci.org/tnguyen14/ledge.png?branch=master)](http://travis-ci.org/tnguyen14/ledge)
 
-The best module ever.
+## Documentation
 
-## Getting Started
-Install the module with: `npm install ledge`
+### Merchant count
+Each account contains a property that keep track of the merchants used in that account and the number of times each merchant is used.
 
-```javascript
-var ledge = require('ledge');
-ledge.awesome(); // "awesome"
+```json
+// account
+{
+	"name": "foo",
+	"merchants_count": {
+		"slugified-merchant-name": {
+			"count": 5,
+			"values": ["Slugified merchant name", "slugified Merchant Name"]
+		}
+	}
+}
 ```
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+The `values` array contains variations of the same name after slugified.
 
 ## License
 Copyright (c) 2014 Tri Nguyen. Licensed under the MIT license.

@@ -31,7 +31,7 @@
     "jshint-stylish": "^0.2.0"
   },
   "scripts": {
-    "test": "grunt"
+    "start": "node ./lib/ledge.js"
   },
   "dependencies": {
     "jshint-stylish": "^1.0.0",

@@ -1,0 +1,9 @@
+ledge:
+  build: .
+  ports:
+   - "13040:3000"
+  links:
+   - db:mongodb
+
+db:
+  image: mongo

@@ -27,6 +27,7 @@
     "start": "node ./lib/ledge.js"
   },
   "dependencies": {
+    "level": "^1.4.0",
     "lodash": "^3.10.1",
     "moment-timezone": "^0.4.0",
     "mongod": "^1.3.0",

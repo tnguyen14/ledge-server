@@ -1,4 +1,4 @@
-# ledge [![Build Status](https://secure.travis-ci.org/tnguyen14/ledge.png?branch=master)](http://travis-ci.org/tnguyen14/ledge)
+# ledge [![Build Status](https://secure.travis-ci.org/tnguyen14/ledge.png?branch=master)](http://travis-ci.org/tnguyen14/ledge) [![js-happiness-style](https://img.shields.io/badge/code%20style-happiness-brightgreen.svg)](https://github.com/JedWatson/happiness)
 
 ## Documentation
 

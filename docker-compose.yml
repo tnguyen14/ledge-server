@@ -1,11 +1,8 @@
-ledge:
-  build: .
-  ports:
-   - "13040:3000"
-  links:
-   - db:mongodb
-
-db:
-  image: mongo
-  volumes:
-   - ./data/db:/data/db
+version: '2'
+services:
+  ledge:
+    build: .
+    ports:
+     - "13040:3000"
+    volumes:
+     - ./data:/src/data

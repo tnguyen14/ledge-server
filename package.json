@@ -22,9 +22,12 @@
   "engines": {
     "node": "0.12.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
   "scripts": {
-    "start": "node ./lib/ledge.js"
+    "start": "node ./lib/ledge.js",
+    "dev": "nodemon ./lib/ledge.js"
   },
   "dependencies": {
     "async": "^1.5.2",

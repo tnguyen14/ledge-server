@@ -31,11 +31,12 @@
   },
   "dependencies": {
     "async": "^1.5.2",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
     "level": "^1.4.0",
     "lodash": "^3.10.1",
     "moment-timezone": "^0.4.0",
-    "restify": "^4.0.3",
-    "restify-errors": "^4.2.0",
     "underscore.string": "^3.1.1"
   }
 }

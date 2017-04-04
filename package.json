@@ -23,11 +23,13 @@
     "node": "0.12.x"
   },
   "devDependencies": {
+    "apidoc": "^0.17.5",
     "nodemon": "^1.10.2"
   },
   "scripts": {
     "start": "node ./lib/ledge.js",
-    "dev": "nodemon --inspect=9223 ./lib/ledge.js"
+    "dev": "nodemon --inspect=9223 ./lib/ledge.js",
+    "doc": "apidoc -i lib/"
   },
   "dependencies": {
     "async": "^1.5.2",
@@ -38,5 +40,9 @@
     "lodash": "^3.10.1",
     "moment-timezone": "^0.4.0",
     "underscore.string": "^3.1.1"
+  },
+  "apidoc": {
+    "title": "Ledge API",
+    "url": "https://api.tridnguyen.com/ledge"
   }
 }
